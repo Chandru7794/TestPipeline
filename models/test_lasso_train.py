@@ -17,7 +17,7 @@ if __name__=="__main__":
     lasso_alpha  = config["lasso_alpha"]
     model_path   = config["modelpath"]
     seed         = config["seed"]
-    unecessary   =config["unnecessary_var"]
+    unecessary   = config["unecessary_var"]
 
 
 ###Load the data
