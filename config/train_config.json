@@ -1,7 +1,7 @@
 {
     "inputpath": "data/AccountRevenue.csv",
     "testdata_size": 0.3,
-    "lasso_alpha": 0.01,
+    "lasso_alpha": 0.001,
     "modelpath":"outputs/lasso_model.pkl",
     "seed":100
 }
