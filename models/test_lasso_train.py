@@ -17,12 +17,13 @@ if __name__=="__main__":
     lasso_alpha  = config["lasso_alpha"]
     model_path   = config["modelpath"]
     seed         = config["seed"]
+    unecessary   =config["unnecessary_var"]
 
 
 ###Load the data
     np.random.seed(seed) 
 
-
+####This code does something
     """This reads in the csv, skips the first row and also deletes the first column"""
     revenue=pd.read_csv(input_path,skiprows=1)
     if revenue.columns[0].startswith('Unnamed'):
